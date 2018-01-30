@@ -25,6 +25,8 @@ end
 
 3. Create and add to spec_helper.rb file:
 
+ENV["RACK_ENV"] = "test"
+
 require 'bundler'
 
 Bundler.require(:default, :test)
