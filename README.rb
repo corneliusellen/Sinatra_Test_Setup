@@ -32,7 +32,6 @@ require 'capybara/rspec'
 Capybara.app = FilmFileApp
 save_and_open_page_path = 'tmp/capybara'
 
-
 DatabaseCleaner.strategy = :truncation
 RSpec.configure do |c|
   c.before(:all) do
