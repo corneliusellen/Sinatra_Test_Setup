@@ -46,5 +46,5 @@ end
 
 4. Run:
 
-rake db:test:prepare
+rake db:test:prepare (Creates and runs migrations for the test database. New app-file-test database created in the db directory.)
 
