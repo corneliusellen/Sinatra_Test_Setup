@@ -1,3 +1,19 @@
+# Rails New Project
+1. Create new project
+rails new <project_name> -T -d="postgresql" --skip-spring --skip-turbolinks
+
+2. Add gems to Gemfile and bundle
+gem 'rspec-rails'
+gem 'capybara'
+gem 'launchy'
+gem 'pry'
+
+3. Install RSpec
+rails g rspec:install
+
+4. Include database cleaner
+
+
 # Sinatra_Test_Setup
 
 1. Add to Gemfile:
