@@ -7,6 +7,8 @@ gem 'rspec-rails'
 gem 'capybara'
 gem 'launchy'
 gem 'pry'
+gem 'shoulda-matchers'
+gem 'factory_bot_rails'
 
 3. Install RSpec
 rails g rspec:install
