@@ -9,6 +9,12 @@ gem 'launchy'
 gem 'pry'
 gem 'shoulda-matchers'
 gem 'factory_bot_rails'
+gem 'figaro'
+gem 'faraday'
+gem 'active_model_serializers'
+
+:test
+gem 'webmock'
 
 3. Install RSpec
 rails g rspec:install
